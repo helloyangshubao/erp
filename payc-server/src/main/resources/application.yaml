@@ -230,8 +230,7 @@ payc:
       - ${spring.boot.admin.context-path}/** # 不处理 Spring Boot Admin 的请求
       - ${management.endpoints.web.base-path}/** # 不处理 Actuator 的请求
   security:
-    permit-all_urls:
-      - /admin-api/mp/open/** # 微信公众号开放平台，微信回调接口，不需要登录
+    permit-all_urls: []
   api-encrypt:
     enable: true # 是否开启 API 加密
     algorithm: AES # 加密算法，支持 AES、RSA 等
@@ -253,8 +252,8 @@ payc:
       topic: ${spring.application.name}-websocket # 消息发送的 Kafka Topic
       consumer-group: ${spring.application.name}-websocket-consumer # 消息发送的 Kafka Consumer Group
   swagger:
-    title: 芋道快速开发平台
-    description: 提供管理后台、用户 App 的所有功能
+    title: 平安云厨ERP系统
+    description: 提供平安云厨 ERP 系统相关接口
     version: ${payc.info.version}
     url: ${payc.web.admin-ui.url}
     email: xingyu4j@vip.qq.com
@@ -283,29 +282,11 @@ payc:
       - mail_account
       - mail_template
       - sms_template
-      - iot:device
-      - iot:thing_model_list
   sms-code: # 短信验证码相关的配置项
     expire-times: 10m
     send-frequency: 1m
     send-maximum-quantity-per-day: 10
     begin-code: 9999 # 这里配置 9999 的原因是，测试方便。
     end-code: 9999 # 这里配置 9999 的原因是，测试方便。
-  trade:
-    order:
-      pay-expire-time: 2h # 支付的过期时间
-      receive-expire-time: 14d # 收货的过期时间
-      comment-expire-time: 7d # 评论的过期时间
-      status-sync-to-wxa-enable: true # 是否同步订单状态到微信小程序
-    express:
-      client: kd_100
-      kd-niao:
-        api-key: cb022f1e-48f1-4c4a-a723-9001ac9676b8
-        business-id: 1809751
-        request-type: 1002 # 免费版 1002；付费版 8001
-      kd100:
-        key: pLXUGAwK5305
-        customer: E77DF18BE109F454A5CD319E44BF5177
-
 
 debug: false
