@@ -1,0 +1,7 @@
+cn.net.payc.framework.apilog.config.YudaoApiLogAutoConfiguration
+cn.net.payc.framework.jackson.config.YudaoJacksonAutoConfiguration
+cn.net.payc.framework.swagger.config.YudaoSwaggerAutoConfiguration
+cn.net.payc.framework.web.config.YudaoWebAutoConfiguration
+cn.net.payc.framework.xss.config.YudaoXssAutoConfiguration
+cn.net.payc.framework.banner.config.YudaoBannerAutoConfiguration
+cn.net.payc.framework.encrypt.config.YudaoApiEncryptAutoConfiguration

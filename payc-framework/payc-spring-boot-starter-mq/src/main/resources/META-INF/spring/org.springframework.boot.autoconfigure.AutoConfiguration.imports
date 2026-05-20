@@ -1,0 +1,3 @@
+cn.net.payc.framework.mq.redis.config.YudaoRedisMQProducerAutoConfiguration
+cn.net.payc.framework.mq.redis.config.YudaoRedisMQConsumerAutoConfiguration
+cn.net.payc.framework.mq.rabbitmq.config.YudaoRabbitMQAutoConfiguration

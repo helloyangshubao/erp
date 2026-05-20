@@ -1,0 +1,4 @@
+cn.net.payc.framework.idempotent.config.YudaoIdempotentConfiguration
+cn.net.payc.framework.lock4j.config.YudaoLock4jConfiguration
+cn.net.payc.framework.ratelimiter.config.YudaoRateLimiterConfiguration
+cn.net.payc.framework.signature.config.YudaoApiSignatureAutoConfiguration

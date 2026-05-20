@@ -1,0 +1,2 @@
+cn.net.payc.framework.redis.config.YudaoRedisAutoConfiguration
+cn.net.payc.framework.redis.config.YudaoCacheAutoConfiguration

@@ -1,0 +1,2 @@
+cn.net.payc.framework.tracer.config.YudaoTracerAutoConfiguration
+cn.net.payc.framework.tracer.config.YudaoMetricsAutoConfiguration

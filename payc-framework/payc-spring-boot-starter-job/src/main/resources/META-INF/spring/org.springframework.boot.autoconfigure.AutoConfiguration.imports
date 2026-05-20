@@ -1,0 +1,2 @@
+cn.net.payc.framework.quartz.config.YudaoQuartzAutoConfiguration
+cn.net.payc.framework.quartz.config.YudaoAsyncAutoConfiguration
