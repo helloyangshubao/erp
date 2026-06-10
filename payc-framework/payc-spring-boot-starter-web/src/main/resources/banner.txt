@@ -1,4 +1,4 @@
-平安云厨科技集团 http://www.iocoder.cn
+平安云厨科技集团 https://www.payc.net.cn
 Application Version: ${payc.info.version}
 Spring Boot Version: ${spring-boot.version}
 
